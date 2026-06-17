@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Jelajahi Dunia bersama Takeshi!</title>
+    <link rel="icon" type="image/png" href="images/android-chrome-192x192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-body">
+    <header>
+        <h1>Jelajahi Dunia bersama Takeshi!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="auth-section">
+            <h2>Login</h2>
+            <form id="login-form" novalidate>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                    <span id="username-error" class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <span id="eye-logo">
+                        <i class="fa-regular fa-eye"></i>
+                    </span>
+                    <span id="password-error" class="error-message"></span>
+                </div>
+
+                <button type="submit" id="submit-button" disabled>Login</button>
+            </form>
+            <p>Belum punya akun? <a href="register.html">Register di sini</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2026 Jelajahi Dunia bersama Takeshi! All rights reserved.</p>
+        <a href="https://www.instagram.com/joglowisata" target="_blank">Link Sosmed!</a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/43b3ac45bc.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
